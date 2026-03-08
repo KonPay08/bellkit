@@ -63,8 +63,8 @@ function App() {
       : "数字列を入力";
 
   return (
-    <div className="min-h-dvh bg-gray-100 flex flex-col">
-      <main className="flex-1 flex flex-col p-4 max-w-lg mx-auto w-full">
+    <div className="h-dvh bg-gray-100 flex flex-col overflow-hidden">
+      <main className="flex-1 flex flex-col p-4 max-w-lg mx-auto w-full overflow-hidden">
         {/* カード */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 flex-1 flex flex-col">
           {/* 入力エリア */}
